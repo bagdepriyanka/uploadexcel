@@ -27,8 +27,8 @@ $mail->Password = ""; // gmail password, make sure 2 factor authentication of of
 $mail->SetFrom(""); // your gmail email id
 	
 ## Notes ##
-The sample of excel file format that can be uploaded and the db table is kept in docs folder. 
+The sample of excel file format that can be uploaded and the database table is kept in docs folder. 
 
-The progress bar and file download is not added yet.
+File download after sending email is not added yet.
 
 Only the file can be uploaded and the data will be uploaded to sql server.
