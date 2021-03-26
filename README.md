@@ -31,4 +31,4 @@ The sample of excel file format that can be uploaded and the db table is kept in
 
 The progress bar and file download is not added yet.
 
-only the file can be uploaded and the data will be uploaded to sql server.
+Only the file can be uploaded and the data will be uploaded to sql server.

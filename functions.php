@@ -17,9 +17,9 @@ function sendEmail($email) {
     $mail->Host = "smtp.gmail.com";
     $mail->Port = 587; // or 587
     $mail->IsHTML(true);
-    $mail->Username = "";
-    $mail->Password = "";
-    $mail->SetFrom("");
+    $mail->Username = ""; // gmail username/email id
+    $mail->Password = ""; // gmail account password
+    $mail->SetFrom(""); // gmail email id from which email has to be send
     $mail->Subject = "Test";
     $mail->Body = "We welcome you to our community";
     $mail->AddAddress($email);

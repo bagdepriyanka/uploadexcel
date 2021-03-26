@@ -25,7 +25,7 @@ if ($ext == "xlsx") {
     foreach ($obj->getWorksheetIterator() as $sheet) {
 
         $getHightestRow = $sheet->getHighestRow(); //get number of rows
-		
+
         for ($i = 1; $i <= $getHightestRow; $i++) {
             $name = $sheet->getCellByColumnAndRow(0, $i)->getValue();
             $email = $sheet->getCellByColumnAndRow(1, $i)->getValue();
@@ -58,11 +58,9 @@ if ($ext == "xlsx") {
 
     }
 
-    
+    echo "failed emails: \n". $failed_mail;
     $total_email = intval($sent_mail) + intval($failed_mail);
-    echo "Total email send: ".$total_email;
-	
-
+    echo "Total email send".$total_email;
 } else {
     echo "<br> Only excel files can be uploaded <br> ";
 }
