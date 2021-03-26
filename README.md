@@ -19,9 +19,12 @@ which show summary of total emails, sent emails and failed emails.
 database connection settings can be done in connect() written in functions.php
 
 Set your gmail account credtionals in sendEmail() written in functions.php
-	$mail->Username = ""; //gmail username
-    $mail->Password = ""; // gmail password, make sure 2 factor authentication of off the gmail account 
-    $mail->SetFrom(""); // your gmail email id
+	
+$mail->Username = ""; //gmail username
+
+$mail->Password = ""; // gmail password, make sure 2 factor authentication of off the gmail account 
+
+$mail->SetFrom(""); // your gmail email id
 	
 ## Notes ##
 The sample of excel file format that can be uploaded and the db table is kept in docs folder. 
